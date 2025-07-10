@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* .클래스명 → class 속성이 해당 이름인 모든 태그에 적용됨 */
+        h1.h1_title {                /* h1 중에서 class="h1_title"에 해당하는 태그에 적용 */
+            color: pink;
+            font-size: 100px;
+        }
+
+        h1.h1_content {              /* h1 중에서 class="h1_content"인 태그에 적용 */
+            color: blue;
+            font-size: 100px;
+        }
+
+        /* #아이디명 → id 속성이 해당 이름인 단 하나의 태그에만 적용됨 */
+        #h1_sub {                    /* id="h1_sub"인 태그에만 적용 (중복 불가) */
+            color: brown;
+            font-weight: bold;
+            font-size: 60px;
+            font-style: italic;
+        }
+    </style>
+
+    <title>CSS 선택자 연습</title>
+</head>
+<body>
+
+    <!-- class는 여러 개의 태그에 동일하게 붙일 수 있음 -->
+    <h1 class="h1_title">안녕하세요!</h1>
+    <h1 class="h1_content">반갑습니다!</h1>
+    <h1 class="h1_title">감사합니다!</h1>
+
+    <!-- id는 한 문서 안에 한 번만 사용 (중복 금지) -->
+    <h1 id="h1_sub">어서오세요!</h1>
+
+</body>
+</html>

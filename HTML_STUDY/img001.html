@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!-- HTML5 문서 선언 -->
+
+<html lang="ko"> <!-- HTML 문서 시작 / 한국어 설정 -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>멀티미디어 연습</title>
+</head>
+
+<body>
+
+    <!-- 이미지 삽입 -->
+    <img src="Ing/orange.jpg" alt="레드향">
+    <!-- src = 이미지 경로 / alt = 이미지가 안 보일 때 나오는 대체 텍스트 -->
+
+    <!-- 이미지가 상위 폴더에 있을 경우 경로 예시 -->
+    <!-- 예: <img src="../Ing/orange.jpg"> -->
+
+    <!-- 이미지 크기 조정 -->
+    <p>
+        <img src="Ing/orange.jpg" width="50" height="50">
+        <!-- width = 너비 / height = 높이 -->
+    </p>
+
+    <!-- 이미지 설명 추가용 태그 -->
+    <figure>
+        <img src="Ing/orange.jpg" alt="레드향">
+        <figcaption>맛있는 레드향</figcaption>
+        <!-- <figcaption> : 이미지 설명 텍스트 -->
+        <!-- <figure> 안에 여러 <img> 넣어도 같은 설명 가능 -->
+    </figure>
+
+    <!-- 특수문자 표현 -->
+    <h1>한 줄 띄어주는 태그는 &lt;br&gt; 입니다.</h1>
+    <!-- &lt; = < / &gt; = > -->
+
+    <h1>안녕&nbsp;&nbsp;&nbsp;&nbsp;감사</h1>
+    <!-- &nbsp; = 공백 여러 칸 -->
+
+    <h1>&copy; 카피라이트 특수문자 코드</h1>
+    <!-- &copy; = © -->
+
+    <hr> <!-- 가로줄 -->
+
+    <!-- PDF 문서 삽입 -->
+    <object width="1000" height="500" data="Ing/product.pdf"></object>
+
+    <!-- 이미지도 object로 삽입 가능 -->
+    <object data="Ing/orange.jpg" width="400" height="300"></object>
+
+    <!-- 멀티미디어 삽입 (오디오/비디오 등) -->
+    <embed src="media/spring.mp3">
+    <embed src="media/flight.mp4">
+    <!-- <embed> 태그로 멀티미디어 삽입 -->
+
+    <hr>
+
+    <!-- 오디오 삽입 + 재생 컨트롤 -->
+    <audio src="media/spring.mp3" controls></audio>
+
+    <hr>
+
+    <!-- 비디오 삽입 -->
+    <video width="500" src="media/flight.mp4" controls autoplay muted poster="Ing/orange.jpg"></video>
+    <!-- controls = 재생 바 / autoplay = 자동 재생 / muted = 음소거 / poster = 썸네일 이미지 -->
+
+</body>
+</html>
