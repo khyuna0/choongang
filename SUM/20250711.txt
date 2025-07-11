@@ -43,4 +43,17 @@ hover 이벤트
     마우스를 올리면 생기는 이벤트 
     기본형태 - a:hover { 이벤트 }
 
-text-shadow
+text-shadow - 그림자 효과
+
+px 고정 크기 em 상대 크기
+letter-spacing - 자간 변경
+word-spacing - 글자 간 간격 조정
+px,em 또는 %로 크깃값 조정
+
+*css는 html 문서(원본) 영향 주지 않고 보이는 것만 바꿈
+
+목록 스타일 (교재 227p)
+    불릿 모양, 번호 스타일 지정
+        - list-style-type 속성
+    불릿 대신 이미지 사용
+        - list-style-image
