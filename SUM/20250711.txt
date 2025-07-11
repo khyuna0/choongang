@@ -57,3 +57,5 @@ px,em 또는 %로 크깃값 조정
         - list-style-type 속성
     불릿 대신 이미지 사용
         - list-style-image
+
+표 스타일
