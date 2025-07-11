@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디스플레이 속성</title>
+
+    <style>
+
+        nav { 
+            background-color: aquamarine;
+        }
+
+        nav ul {  /* 특정 태그 안만 스타일 적용 */
+            list-style: none;
+        }
+         
+       /* nav 태그인 것만 >> nav, <ul 태그인 것만 >> nav, ul, li 태그인 것만 .. 범위 축소 */
+
+        nav ul li {
+            
+            display: inline-block; /* ★블록 레벨 요소를 가지면서 가로로 수평 배치★ */
+            border: 1px solid black; 
+            background-color: white;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            margin: 10px;
+            line-height: 50px; /* 박스 내 컨텐츠를 세로로 중앙(middle) 정렬*/
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul> 
+
+         <li><a href="#">회사소개</a></li>
+         <li><a href="#">대표인사말</a></li>
+         <li><a href="#">제품소개</a></li>
+         <li><a href="#">오시는길</a></li>
+        
+        </ul>
+
+    </nav>
+    
+        <h1>주요 제품 리스트</h1>
+
+        <ul>
+            <li>TV</li>
+            <li>RADIO</li>
+        </ul>
+
+</body>
+</html>

@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css 박스 연습</title>
     <style>
+
+        /* * { 여백 제거
+            margin: 0;
+            padding: 0 ;
+        } */
+
         body * { /* body 태그 내의 모든 하위 태그 */
         border : 1px solid blue
         }
@@ -12,6 +18,13 @@
             color: red;
             font-weight: bold;
         }
+
+        div.text01 {
+            border: 5px solid pink;
+            width: 300px;
+            height: 200px;
+        }
+
     </style>
 
 </head>
@@ -21,6 +34,11 @@
     <h1>시간이란...</h1>
     <div>내일 죽을 것 처럼 <span class="accent">오늘</span>을 살고</div>
     <p>영원히 살 것처럼 내일을 꿈꾸어라.</p>
+
+    <div class="text01">안녕하세요! 오늘은 매우 덥네요.</div>
+
+    <!-- <div>, <p> 요소 삽입 시 혼자 한 줄을 차지함 -->
+    <!-- <span> 수평 공간 차지 -->
 
 </body>
 
