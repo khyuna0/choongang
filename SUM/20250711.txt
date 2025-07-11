@@ -38,10 +38,9 @@ boot strap (아이콘 제공) - https://getbootstrap.com/
 
 text-decoration
     텍스트에 밑줄, 윗줄, 취소선 표시
-    <태그 
 
 hover 이벤트
     마우스를 올리면 생기는 이벤트 
     기본형태 - a:hover { 이벤트 }
 
-하이퍼링크 
+text-shadow
