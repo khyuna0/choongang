@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 연습</title>
+    <style>
+        *{ /* 마진 0 패딩 0 필수 */
+            margin: 0;
+            padding: 0;
+        }
+
+        #box { 
+            position: absolute; /* 포지셔닝: absolute | 웹브라우저의 테두리 기준으로 움직임 */
+            left: 100px;
+            right: 100px;
+            top: 100px;
+            bottom: 100px;
+
+
+            background-color: aquamarine;
+            width: 300px;
+            height: 200px;
+        }
+        #text {
+            position: absolute;
+            left: 200px;
+            right: 300px;
+            top: 50px;
+            bottom: 300px;
+        }
+        #orange {   position: absolute;
+            left: 200px;
+            right: 400px;
+            top: 200px;
+            bottom: 400px;}
+
+    </style>
+</head>
+<body>
+    <div id="box">안녕하세요! 반갑습니다. 감사합니다.</div>
+    <p id="text">오늘은 금요일입니다. 주말 푹 쉬시고 월요일날 뵙겠습니다.</p>
+    <img src="orange.jpg" id="orange">
+</body>
+</html>
