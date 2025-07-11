@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- herf로 주소 지정 - font awsome cmd > font awesome 검색  -->
+
+    <title>Document</title>
+    <style> 
+        ul {
+            list-style: none; /* ul 자체 글머리 기호 삭제 */
+        }
+        h1 {
+            font-size: 150px;
+            color:rgba(172, 59, 59, 0.4); /*rgba - a: 투명도 지정 */
+        }
+        a {
+            text-decoration: none;
+        }
+        a:link { /* 아직 방문하지 않은 링크 상태 */
+            text-decoration: none;
+            color: blue;
+        }
+        a:visited { /* 방문했던 링크 상태 */
+            color: palevioletred;
+        }
+        a:hover { /* 마우스 포인터가 링크 위에 올라갔을 때 발생하는 이벤트 */
+            text-decoration: underline;
+            color: green;
+            font-weight: bold; 
+        }
+        a:active { /* 링크를 클릭하고 버튼에서 손을 떼기 전 까지의 상태*/
+            color: blueviolet;
+        }
+
+        /* 순서 중요! 1.link 2.visited 3.hover 4. active 순서로 배치 */
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <i class="fa-solid fa-house"></i> <!-- 아이콘 표시 -->
+                <a href="#">메뉴 1</a> <!-- #으로 임시 표시 -->
+            </li>
+            <li>
+                <i class="fa-solid fa-thumbs-up"></i> <!--font awesome 사이트 아이콘 복붙-->
+                <a href="#">메뉴 2</a> 
+            </li>
+            <li>
+                <i class="fa-solid fa-gears"></i>
+                <a href="fontTest">메뉴 3</a> 
+            </li>
+        </ul>
+    </nav>
+
+    <h1>CSS 색상 연습</h1>
+
+</body>
+</html>

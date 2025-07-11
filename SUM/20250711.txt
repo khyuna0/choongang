@@ -1,0 +1,47 @@
+css 제작자 스타일 종류
+    1. 인라인 스타일 - 스타일 적용할 대상에 직접 표시 . 태그에 style
+    2. 내부 스타일 시트 - 문서 안에 스타일을 모아 넣음
+    적용 태그 { 스타일 속성 }
+    <적용태그> ~ </적용태그>
+    3. 외부 스타일 시트 - 스타일 정보 따로 저장 > herf로 스타일 불러오기
+
+css 기본 선택자
+    전제 선택자 - 스타일을 모든 요소에 적용
+    기본형 : * {속성: 값 ; ... (세미콜론 필수)}
+
+css 클래스 선택자, id 선택자
+    1. 클래스 선택자 : 중복 가능, .클래스명 형식으로 클래스 지정 {} 안에 스타일 규칙 지정
+    .클래스명 {스타일 규칙}
+    2. id 선택자 : 중복 불가, #클래스명 형식, {} 안에 스타일 규칙 지정 
+    #클래스명 {스타일 규칙}
+    
+글꼴 지정 font-family 속성
+    기본형 : font-family:글꼴이름 
+    글꼴 파일 서버 업로드로 깨짐 방지
+
+웹 폰트, 아이콘
+    구글 폰트 (무료) - https://fonts.google.com/
+    get embed -  구글코드 링크해서 사용. 방문자가 폰트 다운로드 할 필요 없음
+
+font awesome cmd (부분 무료) - https://cdnjs.com/libraries/font-awesome 검색창 font awesome
+
+font awesome (아이콘 제공) - https://fontawesome.com/
+
+boot strap (아이콘 제공) - https://getbootstrap.com/
+    비교적 전문적 디자인 모음 
+
+텍스트 정렬
+    기본 왼쪽 정렬에서 text-align: 으로 텍스트 정렬
+    1. text-align - 텍스트 정렬
+    2. vertical-align - 세로 정렬
+    3. line-height - 줄 간격(줄 높이) 조절. vertical-align의 top middle bottom 효과 가능
+
+text-decoration
+    텍스트에 밑줄, 윗줄, 취소선 표시
+    <태그 
+
+hover 이벤트
+    마우스를 올리면 생기는 이벤트 
+    기본형태 - a:hover { 이벤트 }
+
+하이퍼링크 
