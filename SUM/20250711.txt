@@ -1,4 +1,5 @@
 css 제작자 스타일 종류
+
     1. 인라인 스타일 - 스타일 적용할 대상에 직접 표시 . 태그에 style
     2. 내부 스타일 시트 - 문서 안에 스타일을 모아 넣음
     적용 태그 { 스타일 속성 }
@@ -63,7 +64,7 @@ px,em 또는 %로 크깃값 조정
     text-align: center; /* 셀 안의 텍스트 셀 기준 가운데 정렬 */
     caption-side: bottom; /* 캡션의 위치 ( top, bottom )*/
     border: 1px solid red; 색 지정
-    border-collapse: collapse; /* 셀과 표 테두리와의 여백 삭제 ( 필수! )*/
+    border-collapse: collapse; /* 셀과 표 테두리와의 여백 삭제 | 선을 겹치지 않게 해줌 ( 필수! )*/
 
 박스 모델
     <div> , <p> 태그는 블록 레벨 요소, 너비 100%
