@@ -1,0 +1,75 @@
+[CSS 스타일 적용 방식]
+1. 인라인 스타일: 태그에 직접 style 속성 사용
+2. 내부 스타일 시트: head 안에 <style> 태그로 작성
+3. 외부 스타일 시트: css 파일 따로 작성 후 <link> 태그로 연결
+
+[기본 선택자]
+* 전체 선택자: * {속성:값;}
+* 클래스 선택자: .클래스명 {속성:값;}
+* ID 선택자: #아이디명 {속성:값;}
+
+[글꼴 관련]
+- font-family: 글꼴명;
+- 웹폰트: 구글폰트(https://fonts.google.com/)
+- 아이콘: Font Awesome, Bootstrap Icons 사용 가능
+
+[텍스트 관련]
+- text-align: left/center/right
+- vertical-align: top/middle/bottom
+- line-height: 줄 간격
+- text-decoration: underline/line-through 등
+- text-shadow: 텍스트 그림자
+- letter-spacing: 자간
+- word-spacing: 단어 간격
+
+[목록 스타일]
+- list-style-type: 불릿 종류 지정
+- list-style-image: 불릿 대신 이미지 사용
+
+[표 스타일]
+- padding: 셀 안 여백
+- text-align: 텍스트 정렬
+
+/* vertical-align: bottom;  세로 정렬 - top, middle, bottom. 정렬 상태 조정 */
+/* 줄 간격 조정, 박스 내 수직 정렬 효과 */
+
+- caption-side: 캡션 위치(top/bottom)
+- border: 테두리 스타일
+- border-collapse: collapse (겹치는 테두리 제거)
+
+[박스 모델 기본]
+- 구성: margin > border > padding > content
+- <div>, <p>: 블록 요소 (100% 너비)
+- <span>: 인라인 요소
+
+div {
+  width: 200px;
+  padding: 10px;       /* 안쪽 여백 */
+  border: 2px solid black;  /* 테두리 */
+  margin: 20px;        /* 바깥 여백 */
+}
+
+
+[div / span / p 차이]
+- <div>: 줄바꿈 O, 단락 X 박스 태그. <div> 태그 안에 박스 속성(스타일을 넣어줌)
+- <span>: 줄바꿈 X
+- <p>: 줄바꿈 O, 단락 구분 O
+
+[박스 관련 속성]
+- box-shadow: 그림자
+- border-radius: 모서리 둥글게
+- margin: 바깥 여백
+- padding: 안쪽 여백
+
+[가운데 정렬 팁]
+- margin-left: auto;
+- margin-right: auto;
+
+[요소 가로 배치]
+- display: inline-block;
+- float: left/right;
+
+[위치 지정 (포지션)]
+- position: absolute;
+- top / bottom / left / right: 위치 지정
+- 기준은 브라우저 왼쪽 상단, 혹은 상위 요소
