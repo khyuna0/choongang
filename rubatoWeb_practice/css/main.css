@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
-header {
-    border: 1px solid red; /* 임시 선*/
-}
+
+/* header */
+
+/* header {
+    border: 1px solid red; 임시 선
+} */
 
 #index_page {
     width: 1000px;
@@ -13,11 +16,11 @@ header {
 
 #logo {
     float: left; 
-    margin: 15px 15px 15px 20px; /* 로고 여백 */ 
+    margin: 15px 15px 10px 20px; /* 로고 여백 */ 
 }
 
 #moto { 
-    margin: 45px 0px 0px;
+    margin: 45px 0px 0px; /* 위쪽에 여백을 넣어 내린 것 처럼 보임 */
 }
 
 #top_menu { /*top_menu에 플로트 - 바로 다음에 클리어 (플로트 종료)*/
@@ -33,10 +36,32 @@ header {
     display: inline;
 }
 
+#top_navi {
+    margin-top: 10px;
+}
+
 .line {
     border-top: 1px solid #cccccc;
+    margin-top: 25px 0 0 0;
+}
+
+li.menu_item {
+    margin: 0 0 0 40px;
 }
 
 .clear {
     clear: both; /*플로트 종료*/
+}
+
+/* main */
+
+#banner ul li{ 
+    display: inline; 
+    margin-left: 35px; /* 쏠림 현상 margin으로 커버 */
+}
+
+#banner { /* background-color 로 공백 가림 */
+    height: 110px;
+    background-color: #00a8ab; 
+    margin-top: 5px;
 }
