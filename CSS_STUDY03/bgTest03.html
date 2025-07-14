@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경 그라데이션 연습</title>
+    <style>
+        div{
+            width: 500px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .bg1 { /*선형 그라디언트 */
+            /* background: linear-gradient(to right bottom, blue, white); 오른쪽 밑 방향 그라데이션*/
+            background-color: blue;
+            background: linear-gradient(45deg, red, white);/* 그라데이션 각도. 45도 오른쪽 위 */
+            background: linear-gradient(to bottom, blue, white 30%, blue);
+            /* 밑 방향으로 파란색-흰색-파란색 그라데이션 30% 입력 시 위에서 30%지점에서 다시 파란색으로 그라데이션*/
+        }
+        .bg2 { /*원형 그라디언트*/
+            /* background: radial-gradient( white, yellow, red); 원형 그라데이션 색상 3개 기본 | 기본값 타원형 */
+            background: radial-gradient(circle at 20% 20%, white, red);
+        }
+
+        /* 패턴 그라데이션 */
+
+        .bg3 {
+            background: repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+        }
+        .bg4 {
+            background: repeating-radial-gradient( circle, white, white 10%, pink 10%, pink 20%);
+        }    
+        
+        body {
+            background: linear-gradient( to bottom, yellow, white 30%, yellow );
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bg1"></div>
+    <div class="bg2"></div>
+    <div class="bg3"></div>
+    <div class="bg4"></div>
+</body>
+</html>
