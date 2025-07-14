@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포지션 테스트</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* #city_img { 부모의 left top 기준으로 좌표를 입력한다
+            position: relative;
+            top: 200px;
+            left: 300px;
+        } */
+        #contents { /*이전 요소 (부모 요소)에 맞춰 위치 지정 */
+                    /* 상위 relative, 하위 absolute - 하위가 상위 left top에 맞춰 같이 움직임 */
+            background: url("images/bg.jpg");
+            position: relative;
+            background-size: cover;
+            width: 800px;
+            height: 500px;
+            margin: 0 auto;
+            position: relative;
+        }
+        #css_test {
+            color: red;
+            font-size: 70px;
+            position: absolute;
+            top: 500px;
+            left: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+    <h1 id="css_test">CSS</h1>
+    </div>
+</body>
+</html>
