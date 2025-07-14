@@ -1,0 +1,42 @@
+* { /* 기본적인 왼쪽 정렬 */
+    margin: 0;
+    padding: 0;
+}
+header {
+    border: 1px solid red; /* 임시 선*/
+}
+
+#index_page {
+    width: 1000px;
+    margin: 0 auto; /*가운데 정렬*/
+}
+
+#logo {
+    float: left; 
+    margin: 15px 15px 15px 20px; /* 로고 여백 */ 
+}
+
+#moto { 
+    margin: 45px 0px 0px;
+}
+
+#top_menu { /*top_menu에 플로트 - 바로 다음에 클리어 (플로트 종료)*/
+    float: right;
+    margin: 50px 0 0 0; 
+}
+
+#top_menu li {
+    display: inline;
+}
+
+#top_navi li{
+    display: inline;
+}
+
+.line {
+    border-top: 1px solid #cccccc;
+}
+
+.clear {
+    clear: both; /*플로트 종료*/
+}
