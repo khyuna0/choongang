@@ -42,7 +42,8 @@
 
 .line {
     border-top: 1px solid #cccccc;
-    margin: 30px 0 0 0;
+    margin: 25px 0 0 0;
+    /* 만약 margin-top: 10 0 0 0 값 많이 넣으면 오류 남 */
 }
 
 li.menu_item {
@@ -143,7 +144,80 @@ li {
    
 /* sitemap 섹션 */
 
+#sitemap {
+    /* border: 1px solid blue */
+    padding: 20px 0 0 15px;
+}
+
 #sitemap div {
+    height: 140px;
+    float:left;
+    margin: 0 10px 0 10px ;
+    /* border: 1px solid red */
+}
+
+#sitemap ul li {
+    list-style-image:url("../practice.images/blue_dot.gif");
+    margin: 5px 0 0 20px;
+}
+
+#sitemap h3 {
+    font-size: 15px;
+    color: #096e70;
+    margin-left: 15px;
+}
+
+#sitemap ul {
+    color: #666666;
+}
+
+/* footer */
+
+footer {
+    border-top: 3px solid rgb(19, 107, 110) ;
+    padding: 15px;
+}
+
+footer #address {
     float:left;
 }
 
+footer #link {
+    float: right;
+}
+
+footer #footer_menu li {
+    margin-top: 5px;
+}
+
+#company_info {
+    margin-top: 20px;
+}
+
+#company_info li {
+    margin-top: 2px;
+}
+
+footer #copyright {
+    margin-top: 10px;
+    font-size: 11px;
+    color: black;
+}
+
+footer #link h3 {
+    font-size: 16px;
+    color: #096e70;
+}
+
+footer #link select {
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 100px;
+    height: 20px;
+    font-size: 11px;
+}
+
+footer #icons {
+    margin-top: 10px;
+    text-align: right; /*이미지들은 문자처럼 정렬 가능*/
+}
